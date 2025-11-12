@@ -1,5 +1,5 @@
 import { createAuthClient } from "better-auth/solid";
 
 export const authClient = createAuthClient({
-  baseURL: "http://localhost:8787/api",
+  baseURL: import.meta.env.BETTER_AUTH_URL,
 });
