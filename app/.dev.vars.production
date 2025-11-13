@@ -1,0 +1,3 @@
+BETTER_AUTH_URL="http://localhost:8787"
+BETTER_AUTH_SECRET=0Iq00pCsrwk3JrPWM15prYjgLE0rJIXF
+DATABASE_URL="postgresql://neondb_owner:npg_1kcEWuyf2hiG@ep-cool-pine-a8zfc3c4-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require"

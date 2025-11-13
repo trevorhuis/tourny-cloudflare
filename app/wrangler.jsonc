@@ -1,14 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "app",
+  "name": "tourny-app",
   "main": "src/index.ts",
-  "compatibility_date": "2025-11-12"
-  // "compatibility_flags": [
-  //   "nodejs_compat"
-  // ],
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
+  "compatibility_date": "2025-11-12",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "MY_VAR": "my-variable",
+  },
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
@@ -36,3 +34,4 @@
   //   "head_sampling_rate": 1
   // }
 }
+
